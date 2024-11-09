@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "fzKvcskrT4c=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\GeierAlexandra\\OneDrive - LG-Academy\\repos\\Vertiefung\\U8WarmOderKalt\\U8WarmOderKalt.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GeierAlexandra\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
+    "C:\\Users\\GeierAlexandra\\.nuget\\packages\\mahapps.metro\\2.4.10\\mahapps.metro.2.4.10.nupkg.sha512",
+    "C:\\Users\\GeierAlexandra\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\GeierAlexandra\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}

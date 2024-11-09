@@ -1,0 +1,56 @@
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\bin\Debug\net8.0-windows\U8WarmOderKalt.exe
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\bin\Debug\net8.0-windows\U8WarmOderKalt.deps.json
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\bin\Debug\net8.0-windows\U8WarmOderKalt.runtimeconfig.json
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\bin\Debug\net8.0-windows\U8WarmOderKalt.dll
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\bin\Debug\net8.0-windows\U8WarmOderKalt.pdb
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt_MarkupCompile.cache
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt_MarkupCompile.lref
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt.g.resources
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt.AssemblyInfoInputs.cache
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt.AssemblyInfo.cs
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt.csproj.CoreCompileInputs.cache
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt.dll
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\refint\U8WarmOderKalt.dll
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt.pdb
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt.genruntimeconfig.cache
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\ref\U8WarmOderKalt.dll
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\GameOverWindow.g.cs
+C:\Users\GeierAlexandra\source\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\GameOverWindow.baml
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt.csproj.AssemblyReference.cache
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\HistoryDataTemplate.baml
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\Resourcen\BorderStyles.baml
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\Resourcen\Colors.baml
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\Resourcen\ToggleButtons.baml
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\GameOverWindow.g.cs
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt_MarkupCompile.cache
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt_MarkupCompile.lref
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\bin\Debug\net8.0-windows\U8WarmOderKalt.exe
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\bin\Debug\net8.0-windows\U8WarmOderKalt.deps.json
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\bin\Debug\net8.0-windows\U8WarmOderKalt.runtimeconfig.json
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\bin\Debug\net8.0-windows\U8WarmOderKalt.dll
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\bin\Debug\net8.0-windows\U8WarmOderKalt.pdb
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\bin\Debug\net8.0-windows\ControlzEx.dll
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\bin\Debug\net8.0-windows\MahApps.Metro.dll
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\bin\Debug\net8.0-windows\de\MahApps.Metro.resources.dll
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\Resourcen\MyStyles.baml
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\App.baml
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\GameOverWindow.baml
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt.g.resources
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt.AssemblyInfoInputs.cache
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt.AssemblyInfo.cs
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt.csproj.CoreCompileInputs.cache
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOd.A74D5996.Up2Date
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt.dll
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\refint\U8WarmOderKalt.dll
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt.pdb
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\U8WarmOderKalt.genruntimeconfig.cache
+C:\Users\GeierAlexandra\OneDrive - LG-Academy\repos\Vertiefung\U8WarmOderKalt\obj\Debug\net8.0-windows\ref\U8WarmOderKalt.dll

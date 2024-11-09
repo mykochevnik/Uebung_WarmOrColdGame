@@ -1,0 +1,177 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style x:Key="SwitchStyle" TargetType="{x:Type CheckBox}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type CheckBox}">
+                    
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    
+    <Style TargetType="{x:Type CheckBox}"
+           x:Key="SwitchCheckBoxStyle1">
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+        <Setter Property="FontFamily" Value="Trebuchet MS" />
+        <Setter Property="Margin" Value="2 2" />
+        <Setter Property="Foreground" Value="{StaticResource MainColor}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type CheckBox}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0"
+                              Width="40"
+                              Height="18">
+                            <!--Hitbox-->
+                            <Rectangle Fill="Transparent" />
+
+                            <!--Toggle-Switch Outline-->
+                            <Border CornerRadius="10" 
+                                    BorderBrush="{StaticResource MainColor}"
+                                    BorderThickness="1"
+                                    x:Name="ToggleBorder">
+                                <!--Dot in Toggle-Switch-->
+                                <Ellipse Fill="{StaticResource MainColor}" 
+                                         Height="10" 
+                                         Width="10" 
+                                         HorizontalAlignment="Left"
+                                         Margin="4,0"
+                                         VerticalAlignment="Center"
+                                         x:Name="ToggleEllipse"/>
+                            </Border>
+                        </Grid>
+                        <ContentPresenter Grid.Column="1"
+                                          Margin="4,0,0,0"
+                                          VerticalAlignment="Center"
+                                          HorizontalAlignment="Left" />
+                    </Grid>
+
+                    <ControlTemplate.Triggers>
+                        <!--Change colors and move dot to the right-->
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="ToggleEllipse"
+                                    Property="HorizontalAlignment"
+                                    Value="Right" />
+                            <Setter TargetName="ToggleBorder"
+                                    Property="BorderBrush"
+                                    Value="{StaticResource MyGradientBrush}" />
+                            <Setter TargetName="ToggleBorder"
+                                    Property="Background"
+                                    Value="{StaticResource MyGradientBrush}" />
+                            <Setter TargetName="ToggleEllipse"
+                                    Property="Fill"
+                                    Value="White" />
+                            <Setter Property="Content"
+                                    Value="Verlauf anzeigen"/>
+                        </Trigger>
+
+                        <Trigger Property="IsChecked" Value="False">
+                            <Setter Property="Content"
+                                    Value="Verlauf verbergen"/>
+                        </Trigger>
+
+                        <Trigger Property="IsFocused" Value="True">
+                            <Setter TargetName="ToggleBorder"
+                                    Property="BorderThickness"
+                                    Value="1.5" />
+                            <Setter TargetName="ToggleBorder"
+                                    Property="BorderBrush"
+                                    Value="{StaticResource MainColor}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+    </Style>
+
+    <Style TargetType="{x:Type CheckBox}"
+        x:Key="SwitchCheckBoxStyle2">
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+        <Setter Property="FontFamily" Value="Trebuchet MS" />
+        <Setter Property="Margin" Value="2 2" />
+        <Setter Property="Foreground" Value="{StaticResource MainColor}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type CheckBox}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0"
+                           Width="40"
+                           Height="18">
+                            <!--Hitbox-->
+                            <Rectangle Fill="Transparent" />
+
+                            <!--Toggle-Switch Outline-->
+                            <Border CornerRadius="10" 
+                                 BorderBrush="{StaticResource MainColor}"
+                                 BorderThickness="1"
+                                 x:Name="ToggleBorder">
+                                <!--Dot in Toggle-Switch-->
+                                <Ellipse Fill="{StaticResource MainColor}" 
+                                      Height="10" 
+                                      Width="10" 
+                                      HorizontalAlignment="Left"
+                                      Margin="4,0"
+                                      VerticalAlignment="Center"
+                                      x:Name="ToggleEllipse"/>
+                            </Border>
+                        </Grid>
+                        <ContentPresenter Grid.Column="1"
+                                       Margin="4,0,0,0"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Left" />
+                    </Grid>
+
+                    <ControlTemplate.Triggers>
+                        <!--Change colors and move dot to the right-->
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="ToggleEllipse"
+                                 Property="HorizontalAlignment"
+                                 Value="Right" />
+                            <Setter TargetName="ToggleBorder"
+                                 Property="BorderBrush"
+                                 Value="{StaticResource MyGradientBrush}" />
+                            <Setter TargetName="ToggleBorder"
+                                 Property="Background"
+                                 Value="{StaticResource MyGradientBrush}" />
+                            <Setter TargetName="ToggleEllipse"
+                                 Property="Fill"
+                                 Value="White" />
+                            <Setter Property="Content"
+                                 Value="Tipps anzeigen"/>
+                        </Trigger>
+
+                        <Trigger Property="IsChecked" Value="False">
+                            <Setter Property="Content"
+                                 Value="Tipps verbergen"/>
+                        </Trigger>
+
+                        <Trigger Property="IsFocused" Value="True">
+                            <Setter TargetName="ToggleBorder"
+                                 Property="BorderThickness"
+                                 Value="1.5" />
+                            <Setter TargetName="ToggleBorder"
+                                 Property="BorderBrush"
+                                 Value="{StaticResource MainColor}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+    </Style>
+
+</ResourceDictionary>

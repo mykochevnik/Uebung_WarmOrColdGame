@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <DataTemplate x:Key="historyItemDataTemplate" >
+        <DockPanel Style="{StaticResource dockp_historyItem}">
+            <TextBlock Name="list_tb_userValue"
+                           Style="{StaticResource list_tb_userValue}"
+                           DockPanel.Dock="Left">
+            <Run Text="{Binding Path=UserValue}" />
+            </TextBlock>
+            <TextBlock Name="list_tb_message"
+                   DockPanel.Dock="Top"
+                   Style="{StaticResource list_tb_message}">
+            <Run Text="{Binding Path=Message}" />
+            <!--Style="{StaticResource tblock_trialSingleMessage}"-->
+            </TextBlock>
+            <!--<TextBlock Name="list_tb_tipp"
+                   DockPanel.Dock="Top"
+                   Style="{StaticResource list_tb_tipp}">
+            <Run Text="{Binding Path=Tipp}"/>
+            --><!--Style="{StaticResource tblock_trialTipp}"--><!--
+            </TextBlock>-->
+        </DockPanel>
+    </DataTemplate>
+</ResourceDictionary>

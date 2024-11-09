@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro">
+
+    <LinearGradientBrush x:Key="MyGradientBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#5F0000FF" Offset="0.75" />
+        <GradientStop Color="#5FFF0000" Offset="0.25" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="MyGradientBrushRich" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#CF0000FF" Offset="0.75" />
+        <GradientStop Color="#CFFF0000" Offset="0.25" />
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="MainColor" Color="#696969"/>
+    
+
+</ResourceDictionary>

@@ -1,0 +1,21 @@
+﻿<Application x:Class="U8WarmOderKalt.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:U8WarmOderKalt"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resourcen/Colors.xaml"/>
+                <ResourceDictionary Source="Resourcen/MyStyles.xaml"/>
+                <ResourceDictionary Source="Resourcen/BorderStyles.xaml"/>
+                <ResourceDictionary Source="Resourcen/ToggleButtons.xaml"/>
+                <ResourceDictionary Source="HistoryDataTemplate.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <!-- Theme setting -->
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Blue.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

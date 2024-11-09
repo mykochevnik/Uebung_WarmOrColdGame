@@ -1,0 +1,26 @@
+﻿<Window x:Class="U8WarmOderKalt.GameOverWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:U8WarmOderKalt"
+        mc:Ignorable="d"
+        Title="Game over" Height="370" Width="400"
+        WindowStartupLocation="CenterScreen">
+    
+    <StackPanel Orientation="Vertical"
+                HorizontalAlignment="Center"
+                Margin="10 10 10 20">
+        <Label Style="{StaticResource l_game}" x:Name="l_game" Content="{Binding WinGameNumber}"/>
+        <TextBlock Style="{StaticResource tblock_gameRules}" TextAlignment="Center" Margin="10 10 10 20">
+            <Run Text="Glückwunsch! Du hast die Zahl richtig erraten!"/>
+            <LineBreak />
+            <Run Text="Willst du noch mal spielen?"/>
+        </TextBlock>
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+            <Button Content="Ja" Click="OnOkClick" Style="{StaticResource button_gover_window}"></Button>
+            <Button Content="Spiel verlassen" Click="OnExitClick" Style="{StaticResource button_gover_window}"></Button>
+        </StackPanel>
+    </StackPanel>
+</Window>

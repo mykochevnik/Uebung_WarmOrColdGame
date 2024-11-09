@@ -1,0 +1,76 @@
+﻿<Window x:Class="U8WarmOderKalt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:U8WarmOderKalt"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        Title="Warm oder kalt"
+        Height="550" MinHeight="550" MaxHeight="550"
+        Width="500" MinWidth="500" MaxWidth="800"
+        ResizeMode="CanResizeWithGrip"
+        SnapsToDevicePixels="True"
+        UseLayoutRounding="True"
+        WindowStartupLocation="CenterScreen">
+
+        <DockPanel Style="{StaticResource dockp_main}" x:Name="dockp_main">
+            <StackPanel Style="{StaticResource stackp_main}" x:Name="stackp_main">
+                <Label Style="{StaticResource l_game}" x:Name="l_game"/>
+                <TextBlock x:Name="tblock_gameRules" Style="{StaticResource tblock_gameRules}"/>
+
+                <TextBlock x:Name="tblock_singleMessage"
+                           Style="{StaticResource tblock_SingleMessage}"
+                           Visibility="Visible">
+                    <Run Text="{Binding Path=CurrentTrial.Message}" />
+                </TextBlock>
+                <TextBlock x:Name="tblock_singleTipp"
+                           Style="{StaticResource tblock_SingleTipp}"
+                           Visibility="Collapsed">
+                    <Run Text="{Binding Path=CurrentTrial.Tipp}" />
+                </TextBlock>
+
+                <Border x:Name="border_UserInput" Style="{StaticResource border_UserInput}">
+                    <StackPanel x:Name="sp_UserInput" Style="{StaticResource stackp_UserInput}">
+                        <Border Style="{StaticResource border_SearchedNumber}">
+                            <TextBlock Name="gameNumber" Text="?" Style="{StaticResource tblock_SearchedNumber}"/>
+                        </Border>
+                        <Border x:Name="border_userInput" Style="{StaticResource border_UserInputNumber}">
+                            <TextBox x:Name="tbox_userInput" Text="" Style="{StaticResource tbox_userInput}" KeyDown="OnKeyDown"/>
+                        </Border>
+                    </StackPanel>
+                </Border>
+
+                <TextBlock Name="tblock_errorMessage"
+                           Style="{StaticResource tblock_errorMessage}"
+                           Visibility="Hidden"/>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="4*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel x:Name="stackp_toggle"  Grid.Column="1" Style="{StaticResource stackp_toggle}">
+                        <CheckBox x:Name="toogleb_history"
+                                  Style="{StaticResource SwitchCheckBoxStyle1}" Click="Toogleb_history_Click"
+                                  />
+                        <CheckBox x:Name="toogleb_tipp"
+                                  Style="{StaticResource SwitchCheckBoxStyle2}" Click="Toogleb_tipp_Click"/>
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+
+            <StackPanel  x:Name="stackp_history" Visibility="Collapsed">
+                <ScrollViewer Style="{StaticResource scrollv_Trials}">
+                    <ListView x:Name="list_Trials"
+                      ItemsSource="{Binding Path=Trials}"
+                      Style="{StaticResource lv_trials}"
+                      ItemTemplate="{StaticResource historyItemDataTemplate}"
+                      ItemContainerStyle="{StaticResource lwItemStyle}">
+                    </ListView>
+                </ScrollViewer>
+            </StackPanel>
+        </DockPanel>
+</Window>
